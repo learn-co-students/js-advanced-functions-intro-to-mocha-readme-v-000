@@ -18,6 +18,7 @@ describe('Intro to Mocha', function () {
   });
 
   describe('favoriteIceCream()', function () {
+    debugger
     it('should return the correct sentence when passed an icecream flavor', function () {
       expect(favoriteIceCream('mint chocolate chip')).toEqual('I love mint chocolate chip');
     });
