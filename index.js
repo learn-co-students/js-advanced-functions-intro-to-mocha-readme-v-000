@@ -7,7 +7,7 @@ function sayHey() {
 }
 
 function sayHeyFriend(NAME) {
-	return "Hey, " + NAME + "!"
+	return "Hey, ${name}!"
 }
 
 function favoriteIceCream(NAME_OF_ICECREAM) {
