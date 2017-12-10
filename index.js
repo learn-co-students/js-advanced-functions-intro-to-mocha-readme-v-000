@@ -6,12 +6,12 @@ function sayHey() {
 	return "Hey!"
 }
 
-function sayHeyFriend(NAME) {
-	return "Hey, ${name}!"
+function sayHeyFriend(name) {
+	return `Hey, ${name}!`
 }
 
 function favoriteIceCream(NAME_OF_ICECREAM) {
-	return "I love " + NAME_OF_ICECREAM
+	return `I love ${NAME_OF_ICECREAM}`
 }
 
 function shouting(string) {
