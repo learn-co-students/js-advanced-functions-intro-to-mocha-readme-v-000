@@ -11,11 +11,11 @@ function theTruth() {
 };
 
 function sayHeyFriend(friend){
-	return "Hey, "+ friend + "!";
+	return `Hey, ${friend}!`;
 };
 
 function favoriteIceCream(iceCream) {
-	return 'I love ' + iceCream;
+	return `I love ${iceCream}`;
 };
 
 function shouting(stringCap) {
