@@ -4,6 +4,7 @@
 
 1. Run Mocha Tests
 2. Read Mocha Tests
+3. test
 
 ## The 411
 ![Moe's 411](https://media.giphy.com/media/3orif1KCl3AcfVQefm/giphy.gif)
