@@ -35,3 +35,10 @@ describe('Intro to Mocha', function () {
     });
   });
 });
+
+
+describe('watcha()', function () {
+  it('should return a string with something', function () {
+    expect(watcha(9)).toEqual('I LOVE JAVASCRIPT SOOOOOO MUCH');
+  });
+});
