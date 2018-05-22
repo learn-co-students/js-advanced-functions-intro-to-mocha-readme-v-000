@@ -23,15 +23,15 @@ describe('Intro to Mocha', function () {
     });
   });
 
-  describe('shouting()', function () {
-    it('should return a string in all caps', function () {
-      expect(shouting('i love javascript soooooo much')).toEqual('I LOVE JAVASCRIPT SOOOOOO MUCH');
-    });
-  });
+  // describe('shouting()', function () {
+  //   it('should return a string in all caps', function () {
+  //     expect(shouting('i love javascript soooooo much')).toEqual('I LOVE JAVASCRIPT SOOOOOO MUCH');
+  //   });
+  // });
 
-  describe('roundDown()', function () {
-    it('should correctly floor the number', function () {
-      expect(roundDown(5.99)).toEqual(5);
-    });
-  });
+  // describe('roundDown()', function () {
+  //   it('should correctly floor the number', function () {
+  //     expect(roundDown(5.99)).toEqual(5);
+  //   });
+  // });
 });
