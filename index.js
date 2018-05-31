@@ -10,9 +10,9 @@ function sayHeyFriend(name){
 function favoriteIceCream(){
   return 'I love mint chocolate chip'
 }
-function shouting(){
-  return 'I LOVE JAVASCRIPT SOOOOOO MUCH'
+function shouting(string){
+  return string.toUpperCase()
 }
-function roundDown(){
-  return 5
+function roundDown(num){
+  return Math.floor(num)
 }
