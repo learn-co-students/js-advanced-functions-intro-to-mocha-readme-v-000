@@ -10,8 +10,8 @@ function sayHeyFriend(name) {
 	return `Hey, ${name}!`
 }
 
-function favoriteIceCream() {
-	return `I love mint chocolate chip`
+function favoriteIceCream(flavor) {
+	return `I love ${flavor}`
 }
 
 function shouting() {
