@@ -14,7 +14,7 @@ function favoriteIceCream(flavor) {
 	return `I love ${flavor}`
 }
 
-function shouting() {
+function shouting(string) {
 	return 'I LOVE JAVASCRIPT SOOOOOO MUCH'
 }
 
