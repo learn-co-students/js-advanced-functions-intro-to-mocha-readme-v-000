@@ -16,9 +16,13 @@ describe('Intro to Mocha', function () {
       expect(sayHeyFriend('Kristin')).toBe('Hey, Kristin!');
     });
   });
+  
 
-  describe('favoriteIceCream()', function () {
+  describe('favoriteIceCream()', function () { //names the function it's describing, the callback is the series of tests
+    //Describe test in human-readable format with a callback of expect to check for desired result
     it('should return the correct sentence when passed an icecream flavor', function () {
+      
+                  //vvvv calling the function right here with sample arguments
       expect(favoriteIceCream('mint chocolate chip')).toEqual('I love mint chocolate chip');
     });
   });
