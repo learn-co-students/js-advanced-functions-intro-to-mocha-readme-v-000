@@ -7,5 +7,5 @@ const sayHeyFriend = (name) => `Hey, ${name}!`
 const favoriteIceCream = (icecream) => `I love ${icecream}`
 
 const shouting = (string) => string.toUpperCase()
-//
-// const roundDown = (number) => Math.floor(number)
+
+const roundDown = (number) => Math.floor(number)
