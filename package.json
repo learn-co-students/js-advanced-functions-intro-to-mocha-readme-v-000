@@ -2,21 +2,18 @@
   "name": "javascript-intro-to-mocha",
   "version": "0.1.0",
   "description": "Introduction to Mocha-based tests in JavaScript",
-  "main": "code.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/learn-co-curriculum/javascript-intro-to-mocha.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/javascript-intro-to-mocha.git"
   },
   "keywords": [
-    "jasmine",
-    "testing",
-    "javascript"
+    "javascript",
+    "flatiron",
+    "learn"
   ],
   "author": "The Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -24,14 +21,16 @@
     "url": "https://github.com/learn-co-curriculum/javascript-intro-to-mocha/issues"
   },
   "homepage": "https://github.com/learn-co-curriculum/javascript-intro-to-mocha#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.11.4",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.10.0",
     "expect": "^1.20.2",
     "jsdom": "^9.4.1",
+    "jshint": "^2.9.7",
+    "lodash": "^4.14.0",
     "mocha": "^5.2.0",
+    "mocha-jsdom": "~1.1.0",
     "mocha-multi": "^1.0.1"
-  },
-  "dependencies": {
-    "babel-preset-env": "^1.7.0"
   }
 }
