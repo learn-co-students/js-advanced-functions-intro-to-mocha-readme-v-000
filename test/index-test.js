@@ -5,11 +5,11 @@ describe('Intro to Mocha', function () {
     });
   });
 
-  describe('sayHey()', function () {
-    it('should return the string "Hey!"', function () {
-      expect(sayHey()).toEqual('Hey!');
-    });
-  });
+  describe('sayHey()', () => {
+    it('should return the string "Hey!"', () => {
+      expect(sayHey()).toEqual("Hey!");
+    })
+  })
 
   describe('sayHeyFriend(name)', function () {
     it("should return a greeting with the given name", function () {
