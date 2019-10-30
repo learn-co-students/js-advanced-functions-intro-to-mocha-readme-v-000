@@ -22,3 +22,11 @@ before(function(done) {
     return done();
   });
 });
+
+describe('favoriteIceCream', () => {
+  it('should return the correct sentence when passed an icecream flavor', () => {
+    const result = favoriteIceCream('mint chocolate chip');
+    const expectedResult = 'I love mint chocolate chip';
+    expect(result).toBe(expectedResult);
+  });
+});
